@@ -1,0 +1,25 @@
+$max-column-width: 960px;
+
+
+// -- COLORS
+$mountain-meadow: #22BB88;
+$pickled-bluewood: #2C3E50;
+$silver: #CCCCCC;
+$gallery: #EEEEEE;
+$crimson-red: #FF4444;
+
+
+%page {
+  max-width: $max-column-width;
+  margin: auto;
+}
+
+%font {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $pickled-bluewood;
+}
+
+// We do not declare this as class, as border top/right/bottom/left can be applied separately
+$border-primary: 1px solid $gallery;

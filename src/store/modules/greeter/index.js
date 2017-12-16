@@ -7,7 +7,8 @@ export default {
 
   },
   actions: {
-    someAction ({ dispatch, commit, getters, rootGetters }) {
+    onType ({ dispatch, commit, getters, rootGetters }, evt) {
+      console.log(evt.currentTarget.value)
       console.log('dispatch', dispatch)
       console.log('commit', commit)
       console.log('getters', getters)

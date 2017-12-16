@@ -1,0 +1,29 @@
+@import "./theme.scss";
+@import "../node_modules/normalize.css/normalize.css";
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  @extend %font;
+  background: $gallery;
+}
+
+header {
+  height: 56px;
+  padding: 0 16px;
+  background-color: $mountain-meadow;
+  color: white;
+}
+
+header span {
+  display: block;
+  position: relative;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: .02em;
+  font-weight: 400;
+  box-sizing: border-box;
+  padding-top: 16px;
+}
