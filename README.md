@@ -2,6 +2,10 @@
 
 > A Vue.js project
 
+Initial version design:
+
+![Initial version](./assets/initial.png)
+
 ## Build Setup
 
 ``` bash
